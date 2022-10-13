@@ -1,0 +1,224 @@
+{
+  "homepage": "http://automationpractice.com/index.php",
+  "deliverooForWork": {
+    "users": {
+      "user1": {
+        "firstForm": {
+          "firstname": "John",
+          "lastname": "Smith",
+          "email": "john.smith@tmail.com"
+        },
+        "secondForm": {
+          "firstname": "John",
+          "lastname": "Smith",
+          "company": "Google",
+          "phone": "+44 1234567890",
+          "role": "Personal assistant"
+        },
+        "thirdForm": {
+          "website": null,
+          "teamSize": "Small (<20 employees)",
+          "industry": "Industrials / Manufacturing",
+          "joiningReason": "Team Breakfast",
+          "city": "New York"
+        },
+        "fourthForm": {
+          "allowanceGroups": []
+        },
+        "fifthForm": {
+          "vatNumber": null,
+          "companyRegistrationNumber": "SA123",
+          "companyRegistrationFile": null,
+          "createBillingCheckbox": false,
+          "billData": null,
+          "firstAddress": "St90",
+          "city": "Miami",
+          "postcode": "355689"
+        },
+        "sixthForm": {
+          "acceptTerms": true
+        }
+      },
+      "user2": {
+        "firstForm": {
+          "firstname": "John",
+          "lastname": "Smith",
+          "email": "john.smith@tmail.com"
+        },
+        "secondForm": {
+          "firstname": "John",
+          "lastname": "Smith",
+          "company": "Google",
+          "phone": "+44 1234567892",
+          "role": "Personal assistant"
+        },
+        "thirdForm": {
+          "website": "https://mvnrepository.co/",
+          "teamSize": "Small (<20 employees)",
+          "industry": "Industrials / Manufacturing",
+          "joiningReason": "Team Breakfast",
+          "city": "New York"
+        },
+        "fourthForm": {
+          "allowanceGroups": [
+            {
+              "name": "Group1",
+              "amount": "6",
+              "frequency": "Daily",
+              "timeSlots": [
+                {
+                  "startTime": "10:00",
+                  "endTime": "18:00",
+                  "days": [
+                    "Tuesday",
+                    "Sunday"
+                  ]
+                },
+                {
+                  "startTime": "09:00",
+                  "endTime": "17:00",
+                  "days": [
+                    "Monday"
+                  ]
+                }
+              ],
+              "teamMembers": {
+                "uploadType": "Manual",
+                "index": "0",
+                "members": [
+                  {
+                    "index": "0",
+                    "firstname": "Ali",
+                    "lastname": "Ahmed",
+                    "email": "ali.ahmed@tmail.com",
+                    "id": "101",
+                    "departmentCode": "Dev_EG"
+                  },
+                  {
+                    "index": "1",
+                    "firstname": "Mahmoud",
+                    "lastname": "Sayed",
+                    "email": "mahmoud.sayed@tmail.com",
+                    "id": "131",
+                    "departmentCode": "Dev_FR"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "Group2",
+              "amount": "8",
+              "frequency": "Weekly",
+              "timeSlots": [
+                {
+                  "startTime": "09:00",
+                  "endTime": "17:00",
+                  "days": [
+                    "Thursday"
+                  ]
+                }
+              ],
+              "teamMembers": {
+                "index": "1",
+                "uploadType": "Manual",
+                "members": [
+                  {
+                    "index": "2",
+                    "firstname": "Hany",
+                    "lastname": "Walid",
+                    "email": "hany.walid@tmail.com",
+                    "id": "151",
+                    "departmentCode": "Dev_EG"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "fifthForm": {
+          "vatNumber": "VAT342",
+          "companyRegistrationNumber": "SA123",
+          "companyRegistrationFile": "company-registration.pdf",
+          "createBillingCheckbox": true,
+          "billData": {
+            "name": "Sales Bill",
+            "email": "teq@tmail.com",
+            "phone": "+44 1234567891",
+            "notes": "Bill Notes"
+          },
+          "firstAddress": "St90",
+          "city": "Miami",
+          "postcode": "355689"
+        },
+        "sixthForm": {
+          "acceptTerms": true
+        }
+      }
+    }
+  },
+  "applicants": {
+    "user1": {
+      "firstname": "Ahmed",
+      "lastname": "Ali",
+      "email": "ahmed.ali@tmail.com",
+      "phone": null,
+      "city": "Cairo, Egypt",
+      "resume": null,
+      "coverLetter": null,
+      "linkedIn": "www.linkedin.com/in",
+      "requireVisa": "Yes",
+      "heardOfDeliveroo": "Yes",
+      "useDeliveroo": "No",
+      "gender": "Male",
+      "orientation": "Heterosexual / Straight",
+      "disability": "No, I do not have a disability",
+      "ethnicity": "Any other ethnic group"
+    },
+    "user2": {
+      "firstname": "Ahmed",
+      "lastname": "Ali",
+      "email": "ahmed.ali@tmail.com",
+      "phone": "+201159918756",
+      "city": "Cairo, Egypt",
+      "resume": {
+        "type": "file",
+        "file": "resume.pdf"
+      },
+      "coverLetter": {
+        "type": "file",
+        "file": "cover-letter.pdf"
+      },
+      "linkedIn": "www.linkedin.com/in",
+      "requireVisa": "Yes",
+      "heardOfDeliveroo": "Yes",
+      "useDeliveroo": "No",
+      "gender": "Male",
+      "orientation": "Heterosexual / Straight",
+      "disability": "No, I do not have a disability",
+      "ethnicity": "Any other ethnic group"
+    },
+    "user3": {
+      "firstname": "Ahmed",
+      "lastname": "Ali",
+      "email": "ahmed.ali@tmail.com",
+      "phone": "+201159918756",
+      "city": "Cairo, Egypt",
+      "resume": {
+        "type": "text",
+        "text": "Resume Details"
+      },
+      "coverLetter": {
+        "type": "text",
+        "text": "Cover Letter Details"
+      },
+      "linkedIn": "www.linkedin.com/in",
+      "requireVisa": "Yes",
+      "heardOfDeliveroo": "Yes",
+      "useDeliveroo": "No",
+      "gender": "Male",
+      "orientation": "Heterosexual / Straight",
+      "disability": "No, I do not have a disability",
+      "ethnicity": "Any other ethnic group"
+    }
+  }
+}
